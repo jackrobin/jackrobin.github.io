@@ -1,6 +1,6 @@
 # Site settings
-title: 首页
-SEOTitle: 泥菩萨
+title: 泥菩萨
+SEOTitle: 首页
 header-img: img/post-bg-desk.jpg
 email: jackrobin@foxmail.com
 description: "泥菩萨过江，自身难保."
@@ -12,7 +12,7 @@ github_repo: "https://github.com/jackrobin/jackrobin.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "我的自画像!"
-sidebar-avatar: /img/myslef.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/myself.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
