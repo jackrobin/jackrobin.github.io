@@ -15,7 +15,7 @@ sidebar-about-description: "我亲手画的！"
 sidebar-avatar: /img/myself.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
-RSS: true
+RSS: false
 
 
 # Build settings
