@@ -7,7 +7,7 @@ description: "泥菩萨过江，自身难保."
 keyword: "泥菩萨,泥菩萨的博客,泥菩萨博客,java程序员,java后台,linux,nginx,spring,mybatis,大数据,数据可视化,数据挖掘与分析"
 url: "https://nipusa.me"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/jackrobin/jackrobin.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
