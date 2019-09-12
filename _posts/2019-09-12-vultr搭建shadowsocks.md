@@ -7,7 +7,7 @@ tags:
     - 科学上网
 ---
 ## 前言
-> 为了实现自由畅游互联网的目的，某些时候我们需要通过一些科学的手段去上网。
+为了实现自由畅游互联网的目的，某些时候我们需要通过一些科学的手段去上网。
 ## 实现方法
 通过购买国外vps，搭建shadowsocks服务器，再通过客户端连接ss服务器，即可实现科学上网。
 至于原理简单点说就是利用ss的加密功能，对数据进行加密，这样就可以绕过GFW屏蔽。
@@ -20,7 +20,7 @@ tags:
 + 买Chicago的服务器，因为Tokyo和Singapore这些距离我们近的机房，已经被封了太多了。我当时连续换了10几个ip都被封，最后选了芝加哥的，一直非常稳定使用中
 + 操作系统我选的是Centos 7 64位
 + 然后规格就选5美元一个月的就行。25G的SSD，每个月1000G流量，基本用不完，很可以了。
-## 安装shadowsocks
+## 安装shadowsocks##
 ###首先安装谷歌BBR（可选）###
 安装BBR可以优化访问速度，建议还是装下吧。
 ```
@@ -32,12 +32,15 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 ```
 wget — no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
 ```
+
 `
 chmod +x shadowsocks.sh
 `
+
 `
 ./shadowsocks.sh
 `
+
 之后会提示依次输入密码，端口，加密方式:
 + 密码：就是安装成功后客户端连接服务器的密码，设置后牢记
 + 端口：安装成功后连接服务器的端口，尽量设置大一点吧。2000以上，万一后面服务器装个啥软件，别冲突了。我设置的是2443
