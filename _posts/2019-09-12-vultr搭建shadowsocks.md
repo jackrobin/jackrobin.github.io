@@ -32,6 +32,8 @@ tags:
 wget --no-check-certificate 
 https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
+如果在线地址无法访问，您可以点击[脚本下载](https://nipusa.me/shell/bbr.sh)
+
 等待成功后需要重启。
 ## 安装shadowsocks
 依次执行以下命令：
@@ -39,6 +41,7 @@ https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr
 wget — no-check-certificate -O shadowsocks.sh 
 https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
 ```
+如果在线地址无法访问，您可以点击[脚本下载](https://nipusa.me/shell/shadowsocks.sh)
 
 ```
 chmod +x shadowsocks.sh
