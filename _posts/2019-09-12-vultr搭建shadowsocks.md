@@ -2,7 +2,6 @@
 layout: post
 title: vultr搭建shadowsocks
 date: 2019-09-12
-catalog: true
 tags:
     - shadowsocks
     - 科学上网
