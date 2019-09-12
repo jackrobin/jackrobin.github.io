@@ -50,11 +50,17 @@ chmod +x shadowsocks.sh
 + 密码：就是安装成功后客户端连接服务器的密码，设置后牢记
 + 端口：安装成功后连接服务器的端口，尽量设置大一点吧。2000以上，万一后面服务器装个啥软件，别冲突了。我设置的是2443
 + 加密方式，建议选择aes-256-cfb，因为ios和windows还是android的ss客户端，默认连接加密方式就是这个
-![](img/ss-install.png)
+![](https://nipusa.me/img/ss-install.png)
 上面三个参数设置成功后按回车进行安装即可。
 安装成功后会提示ip，端口，密码，加密方式。记好这4个信息
-![](img/ss-success.png)
+![](https://nipusa.me/img/ss-success.png)
 接下来就可以下载客户端尝试连接服务器了。
+## 客户端的使用
+主要的客户端：
++ [windows客户端](https://github.com/shadowsocks/shadowsocks-windows)，里面有详细的使用介绍，也可以直接[下载](https://github.com/shadowsocks/shadowsocks-windows/releases)最新版本。
++ [android客户端](https://github.com/shadowsocks/shadowsocks-android)介绍页面，最新版本[下载](https://github.com/shadowsocks/shadowsocks-android/releases)。
+
+#### 希望对您有所帮助
 
 
 
