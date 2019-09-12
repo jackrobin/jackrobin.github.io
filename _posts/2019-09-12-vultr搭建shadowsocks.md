@@ -1,8 +1,6 @@
 ---
 layout: post
 title: vultr搭建shadowsocks
-subtitle: 科学上网
-author: 泥菩萨
 date: 2019-09-12
 catalog: true
 tags:
