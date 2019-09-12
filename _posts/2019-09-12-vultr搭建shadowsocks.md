@@ -58,7 +58,6 @@ chmod +x shadowsocks.sh
 ![](https://nipusa.me/img/ss-success.png)
 接下来就可以下载客户端尝试连接服务器了。
 ## 客户端的使用
-主要的客户端：
 + [windows客户端](https://github.com/shadowsocks/shadowsocks-windows)，里面有详细的使用介绍，也可以直接[下载](https://github.com/shadowsocks/shadowsocks-windows/releases)最新版本。
 + [android客户端](https://github.com/shadowsocks/shadowsocks-android)介绍页面，最新版本[下载](https://github.com/shadowsocks/shadowsocks-android/releases)。
 
