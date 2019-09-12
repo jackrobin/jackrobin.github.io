@@ -14,20 +14,23 @@ tags:
 ## 去哪里买vps？
 之前有用过[搬瓦工](https://bwh1.net/index.php)，一开始稳定，高速，毕竟人家有做专门的CN线路，但是用过半年左右后，频繁出现ip被封。
 搬瓦工ip被封后无法更换机房，也就无法免费更换ip，虽然有免费更新ip的策略，但是等的时间太久，要么只能花8美元更换ip，实在是贵。所以弃用了！
+
 **所以现在用vultr**，经过2天的考察和测试，最终选择了[vultr](https://www.vultr.com/)。之所以选择vultr，是因为可以免费切换ip，而且速度快，线路稳定（用了3个月没有出现问题），
 当然，一个月5美元是要付的，太免费也有点假不是。
+
 **购买注意事项**
 + 买Chicago的服务器，因为Tokyo和Singapore这些距离我们近的机房，已经被封了太多了。我当时连续换了10几个ip都被封，最后选了芝加哥的，一直非常稳定使用中
 + 操作系统我选的是Centos 7 64位
 + 然后规格就选5美元一个月的就行。25G的SSD，每个月1000G流量，基本用不完，很可以了。
 ## 安装shadowsocks
-###首先安装谷歌BBR（可选）
+### 首先安装谷歌BBR（可选）
 安装BBR可以优化访问速度，建议还是装下吧。
 ```
-wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+wget --no-check-certificate 
+https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
 等待成功后需要重启。
-###安装shadowsocks
+### 安装shadowsocks
 依次执行以下命令：
 ```
 wget — no-check-certificate -O shadowsocks.sh 
