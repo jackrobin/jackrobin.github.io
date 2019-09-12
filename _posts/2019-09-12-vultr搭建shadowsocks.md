@@ -22,28 +22,28 @@ tags:
 + 买Chicago的服务器，因为Tokyo和Singapore这些距离我们近的机房，已经被封了太多了。我当时连续换了10几个ip都被封，最后选了芝加哥的，一直非常稳定使用中
 + 操作系统我选的是Centos 7 64位
 + 然后规格就选5美元一个月的就行。25G的SSD，每个月1000G流量，基本用不完，很可以了。
-## 安装shadowsocks
-### 首先安装谷歌BBR（可选）
+
+## 首先安装谷歌BBR（可选）
 安装BBR可以优化访问速度，建议还是装下吧。
 ```
 wget --no-check-certificate 
 https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
 等待成功后需要重启。
-### 安装shadowsocks
+## 安装shadowsocks
 依次执行以下命令：
 ```
 wget — no-check-certificate -O shadowsocks.sh 
 https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
 ```
 
-`
+```
 chmod +x shadowsocks.sh
-`
+```
 
-`
+```
 ./shadowsocks.sh
-`
+```
 
 之后会提示依次输入密码，端口，加密方式:
 + 密码：就是安装成功后客户端连接服务器的密码，设置后牢记
