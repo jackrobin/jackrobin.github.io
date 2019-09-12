@@ -1,7 +1,10 @@
 ---
 layout: post
 title: vultr搭建shadowsocks
+author: 泥菩萨
 date: 2019-09-12
+header-img: img/post-bg-ios9-web.jpg
+catalog: true
 tags:
     - shadowsocks
     - 科学上网
