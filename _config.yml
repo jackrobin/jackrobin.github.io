@@ -2,7 +2,7 @@
 title: 泥菩萨
 SEOTitle: 泥菩萨的博客
 header-img: img/post-bg-desk.jpg
-email: jackrobin@foxmail.com
+# email: jackrobin@foxmail.com
 description: "泥菩萨过江，自身难保."
 keyword: "泥菩萨,泥菩萨的博客,泥菩萨博客,java程序员,java后台,linux,nginx,spring,mybatis,大数据,数据可视化,数据挖掘与分析"
 url: "https://nipusa.me"          # your host, for absolute URL
