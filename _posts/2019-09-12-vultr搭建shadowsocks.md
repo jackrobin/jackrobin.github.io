@@ -34,7 +34,7 @@ https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr
 ```
 如果在线地址无法访问，您可以点击[脚本下载](https://nipusa.me/shell/bbr.sh)
 
-等待成功后需要重启。
+等待成功后需要重启。重启后输入 lsmod | grep bbr ，出现 tcp_bbr 即说明 BBR 已经启动。
 ## 安装shadowsocks
 依次执行以下命令：
 ```
@@ -60,6 +60,18 @@ chmod +x shadowsocks.sh
 安装成功后会提示ip，端口，密码，加密方式。记好这4个信息
 ![](https://nipusa.me/img/ss-success.png)
 接下来就可以下载客户端尝试连接服务器了。
+## shadowsocks命令
+卸载：
+`
+./shadowsocks.sh uninstall
+`
+控制：
+```
+/etc/init.d/shadowsocks start      启动
+/etc/init.d/shadowsocks stop       停止
+/etc/init.d/shadowsocks restart    重启
+/etc/init.d/shadowsocks status     状态
+```
 ## 客户端的使用
 + [windows客户端](https://github.com/shadowsocks/shadowsocks-windows)，里面有详细的使用介绍，也可以直接[下载](https://github.com/shadowsocks/shadowsocks-windows/releases)最新版本。
 + [android客户端](https://github.com/shadowsocks/shadowsocks-android)介绍页面，最新版本[下载](https://github.com/shadowsocks/shadowsocks-android/releases)。
