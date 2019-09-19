@@ -61,11 +61,11 @@ chmod +x shadowsocks.sh
 ![](https://nipusa.me/img/ss-success.png)
 接下来就可以下载客户端尝试连接服务器了。
 ## shadowsocks命令
-卸载：
-`
+#### 卸载：
+```
 ./shadowsocks.sh uninstall
-`
-控制：
+```
+#### 控制：
 ```
 /etc/init.d/shadowsocks start      启动
 /etc/init.d/shadowsocks stop       停止
