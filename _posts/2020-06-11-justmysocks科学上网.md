@@ -12,7 +12,7 @@ tags:
 ## 实现方法
 直接购买justmysocks上网服务，买的好处是稳定可靠，比自己搭建服务器性价比高
 ## 去哪里买justmysocks？
-[justmysocks](https://justmysocks.net/members/aff.php?aff=11611)
+[justmysocks](https://justmysocks.net/members/aff.php?aff=29583)
 
 **希望对您有所帮助**
 
